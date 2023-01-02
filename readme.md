@@ -3,7 +3,7 @@
 
 Before using `theazran/google-oauth2`, you must register an application with Google. If you have not already done so, a new project can be created in the [Google Developers Console](https://console.cloud.google.com/). Your application will be issued a client ID and client secret, which need to be provided to the strategy. You will also need to configure a redirect URI which matches the route in your application.
 
-## Change this [line](https://github.com/theazran/google-oauth2/blob/master/auth/google.js#L4)
+## Change this [line](https://github.com/theazran/google-oauth2/blob/main/auth/google.js#L4)
 ```js
 const GOOGLE_CLIENT_ID = 'Google-client-ID'
 const GOOGLE_CLIENT_SECRET = 'Google-client-secret'
